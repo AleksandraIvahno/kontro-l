@@ -5,4 +5,4 @@ if b<7:
   c = 3**b
   print("Jūsu rezultāts ir", c)
 else:
-  print("Error")
+  print("Error") 
