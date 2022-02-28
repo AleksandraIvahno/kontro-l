@@ -1,5 +1,4 @@
-a = int(input("Līdz kuramm skitlīm: "))
-s = 0
-for i in range(9, a+1):
-  s = i + s
-print("Summa ir", s)
+x = 15
+while x>=3:
+  print (x**3)
+x=x-1
