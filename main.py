@@ -1,5 +1,4 @@
-a = int(input("Līdz kuram skaitlīm: "))
-s = 0
-for i in range(1, a+1):
-  s = i + s
-print("Summa is", s)
+import math
+a = int(input("Ievadi pakāpi: "))
+b = math.pow(2,a)
+print("Skaitlis 2",a, "pakāpe ir", b)
