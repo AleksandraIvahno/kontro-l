@@ -1,12 +1,9 @@
-i = 1
-while i <=10:
-  print(i**2,)
-  i = i + 1
-i = 1
-while i <=15 :
-  print (i**3,)
-  i=i+1
-i = 2 
-while i <=20:
-  print (i**0.5)
-  i=i+1
+i = int (input("Ievadi cik ir "))
+sum_ = 0
+len_ = 0
+while i>0:
+  al = int(input("Ievadi vienu atzīmi "))
+  i = i-1
+  sum_+=i-1
+  len_+=1
+print(sum_/len_)
